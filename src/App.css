@@ -1,0 +1,103 @@
+*{
+  box-sizing: content-box;
+}
+#root{
+  background-image: linear-gradient(to bottom right,rgb(141, 4, 154),rgb(247, 7, 171),rgb(236, 79, 79));
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+  padding: 5px 3px;
+}
+p{
+  display: flex;
+  justify-content:space-between;
+  gap: 0px;
+  margin-left: 10px;
+  color: white;
+}
+#sp{
+  margin-right:100px;
+  column-gap:0px;
+}
+form{
+  width: 50%;
+  margin-left: 9%;
+  margin-right: 11%;
+}
+.vert{
+  border-left: 2px solid black;
+  width: 1px;
+  height: 800px;
+}
+.cont{
+  display: flex;
+}
+.enr{
+  width:100%;
+}
+h2{
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+}
+tr{
+  border: 1px solid;
+}
+.wd{
+  vertical-align: top;
+  width: 500px;
+  border: 1.5px solid black;
+  padding: 5px 7px;
+  color: white;
+  border-radius: 10px;
+}
+#st{
+  color: white;
+}
+span{
+  color: white;
+}
+.img{
+  width: 150px;
+  border: 1.5px solid black;
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+}
+table{
+  margin-left: 20px;
+  border-collapse: collapse;
+  margin-right: 20px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+.input{
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 200px;
+  outline: none;
+  border: none;
+}
+#but{
+  justify-content: space-evenly;
+}
+.submit{
+  background-color: rgb(76, 76, 209);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+.cl{
+  background-color: rgb(254, 12, 29);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
